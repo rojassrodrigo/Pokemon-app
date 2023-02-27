@@ -1,0 +1,246 @@
+.navBar {
+    background: darkblue;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    max-height: 6rem;
+    padding: 1rem;
+  }
+.buttonHome {
+    font-size: 15px;
+    color: #66625c;
+    background-color: #fff;
+    box-shadow: 0 2rem 4rem var(--black);
+    transition: all 0.3s;
+    font-weight: 600;
+    min-height: 60px;
+    min-width: 90px;
+    border-radius: 1.5rem;
+    cursor: pointer;
+    border: none;
+    margin-left: 12%;
+    margin-top: 0;
+} 
+.buttonHome:hover {
+    color: #66625c;
+    background-color: #fff;
+    border: none;
+    transform: scale(1.1);
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px;
+  height: 100%;
+  width: 100%;
+}
+.contAzul {
+  display: flex;
+  background-color: darkblue;
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+  border-radius: 60px;
+}
+.contGris {
+  display: flex;
+  background-color: #f8f7f7;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+}
+.contIzq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #fff;
+    width: 380px;
+    height: 470px;
+    border-radius: 50px;
+    box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.1);
+  }
+.circulo {
+    background-color: rgba(217, 217, 217, 0.582);
+    height: 250px;
+    width: 250px;
+    position: relative;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image {
+    min-height: 250px;
+    max-width: 250px;
+    position: absolute;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.name {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: #66625c;
+}
+.types {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    font-family: "Rubik", sans-serif;
+    font-size: 14px;
+    box-shadow: none;
+    text-decoration:none;
+}
+  
+.types div {
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75px;
+    height: 33px;
+    border-radius: 20px;
+    
+}
+
+.id {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #66625c;
+    max-width: 50%;
+    text-align: center;
+}
+
+.contDer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: transparent;
+    width: 380px;
+    height: 470px;
+    border-radius: 50px;
+}
+.alturaPeso {
+    margin-top: 20px;
+    display: flex;
+    gap: 30px;
+}
+.medidas {
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    color: #66625c;
+    gap: 7px;
+    background-color: #fff;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.33);
+}
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    color: #868686;
+}
+
+.stats {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.filaStat {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #868686;
+}
+.number {
+    font-family: "Rubik", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: #66625c;
+}
+.barra {
+    background-color: #fff;
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.33);
+    height: 20px;
+    width: 200px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+  
+.hp {
+    height: 100%;
+    background-color: chartreuse;
+    max-width: 100%;
+    border-radius: 20px 0px 0px 20px;
+}
+.ataque {
+  height: 100%;
+  background-color: crimson;
+  max-width: 100%;
+  border-radius: 20px 0px 0px 20px;
+}
+.defensa {
+  height: 100%;
+  background-color: yellow;
+  max-width: 100%;
+  border-radius: 20px 0px 0px 20px;
+}
+.velocidad {
+  height: 100%;
+  background-color: deepskyblue;
+  max-width: 100%;
+  border-radius: 20px 0px 0px 20px;
+}
+.pokeball {
+  height: 500px;
+}
+
+.poke {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.butDelete {
+  font-family: "Rubik", sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: #868686;
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: none;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+  margin-top: 30px;
+  padding: 10px 20px;
+}
+
+.butDelete:hover {
+  color: rgb(255, 255, 255);
+  background-color: #e93228;
+  border: none;
+}

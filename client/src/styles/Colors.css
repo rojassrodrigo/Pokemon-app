@@ -1,0 +1,40 @@
+.bug {
+    background-color: #b1d026;
+  }
+  
+  .fire {
+    background-color: #ea721d;
+    text-decoration:none;
+  }
+  
+  .grass {
+    background-color: #1bc524;
+  }
+  
+  .poison {
+    background-color: #a931a9;
+  }
+  
+  .water {
+    background-color: #1426e9ee;
+  }
+  
+  .flying {
+    background-color: #9096f0;
+  }
+  
+  .normal {
+    background-color: #a8a8a8;
+  }
+  
+  .fairy {
+    background-color: #fb55ce;
+  }
+  
+  .electric {
+    background-color: #d6d44b;
+  }
+  
+  .ground {
+    background-color: #feb122;
+  }

@@ -1,0 +1,87 @@
+.background {
+    background-image: url("../styles/images/PokeLanding.jpg");
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 2rem;
+  }
+
+  /* .contIzq {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 30px;
+    
+  }
+
+  .logo {
+    width: 30%;
+    filter: drop-shadow(0px 3px 4px rgba(0, 0, 0, 0.4));
+    margin-left: 12%;
+    margin-top: 12%;
+  } */
+  /* .contTitle {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    padding: 10%
+  } */
+  .title {
+    display: flex;
+    font-size: clamp(2.5rem, 1rem + 10vw, 4.9rem);
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: 500;
+    
+  }
+
+  .button {
+    display: flexbox;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.908);
+    box-shadow: 0 2rem 4rem var(--black);
+    transition: all 0.3s;
+    font-weight: 700;
+    min-height: 70px;
+    min-width: 180px;
+    border-radius: 1.3rem;
+    cursor: pointer;
+    border: none;
+    margin-left: 55rem;
+    margin-top: 25rem;
+  }
+  .button:hover {
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    transform: scale(1.5);
+  }
+
+
+
+  .contDer {
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-color: #fff;
+    border-radius: 9px;
+    padding: auto;
+    margin-right: 440px;
+  }
+  .pikachuImg {
+    margin-top: 30px;
+    min-height: 80%;
+    position: absolute;
+    border-radius: 30%;
+  }  
+
+    .contDer:hover .pikachuImg {-webkit-transform:scale(1.5);transform:scale(1.2);
+        border-radius: 60%;}
+    .contDer {overflow:visible;}

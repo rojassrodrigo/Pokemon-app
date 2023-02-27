@@ -1,0 +1,92 @@
+
+    .card {
+      background-color: rgba(53, 93, 145, 0.822);
+      width: 300px;
+      height: 400px;
+      box-shadow: 0 4px 8px 0 rgba(68, 116, 187, 0.637);
+      border-radius: 7px;
+      overflow: hidden;
+      margin: 70px;
+      float: left;
+      font-family: 'Open Sans', sans-serif;
+      color: beige;
+      text-align: center;
+      position: relative;
+    }
+    .card:hover {
+      box-shadow: 0px 2px 6px 2px rgba(77, 74, 74, 0.2);
+      transform: translateY(-2px);
+      transition: all 0.3s ease-in-out;
+    }
+
+    .card h2 {
+      font-size: 36px;
+      font-weight: bold;
+      text-transform: capitalize;
+      margin: 20px 0 0;
+      color: #252525;
+      text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.2);
+      position: relative;
+      padding-bottom: 10px; /* Añadimos un poco más de espacio entre el título y la línea */
+      
+    }
+    
+    .card h2::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 5px;
+      background: linear-gradient(to right, #fffdfb, #aaa49d, #f1efeb);
+      border-radius: 5px;
+      transform: scale(0);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    .card:hover h2::after {
+      transform: scale(1); /* La línea se expande cuando se pasa el cursor sobre la tarjeta */
+    }
+
+    .card .types {
+      display: flex;
+      justify-content: center;
+    }
+    
+    .card .types span {
+      display: inline-block;
+      background-color: #4F4F4F;
+      color: white;
+      padding: 4px 10px;
+      margin: 4px;
+      border-radius: 20px;
+      font-size: 14px;
+    }
+
+    /* .card__types {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .card__type {
+      background-color: beige;
+      color: #35499d;
+      font-size: 12px;
+      font-weight: bold;
+      padding: 6px 12px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+      border-radius: 5px;
+      text-transform: capitalize;
+    } */
+
+   
+
+
+
+    
+
+    
+    
+    

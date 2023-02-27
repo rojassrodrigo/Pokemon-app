@@ -1,0 +1,202 @@
+.contHome {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.navDer {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+  }
+.contLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+  }
+.logo {
+    margin-left: 20px;
+    max-width: 190px;
+    filter: drop-shadow(12px 8px 8px rgba(252, 251, 251, 0.814));
+}
+
+.navBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(22, 22, 121);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.25);
+    padding: 10px;
+    max-height: 6rem;
+    padding: 1rem;
+  }
+  button {
+    background-color: #008CBA; /* Cambiar a tu color preferido */
+    border: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  button:hover {
+    background-color: #004466; /* Cambiar a un tono más oscuro de tu color preferido */
+  }
+  input {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 10px;
+    font-size: 16px;
+    background-color: #f2f2f2; /* Cambiar a tu color preferido */
+  }
+  input:focus {
+    outline: none;
+    background-color: #ffffff; /* Cambiar a tu color preferido */
+    box-shadow: 0px 0px 5px #008CBA; /* Cambiar a tu color preferido */
+  }
+  
+  .homefilters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+
+  .homefilters select {
+    font-size: 16px;
+    padding: 10px 15px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+
+
+  @media (max-width: 768px) {
+    .homefilters {
+        flex-direction: column;
+      }
+  
+    .homefilters select {
+        margin: 10px 0;
+      }
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; 
+    gap: 20px;
+    flex-grow: 1;
+    padding-inline: 0.5rem;
+  }
+  
+ 
+.card {
+    flex: 1 0 300px;
+    margin: 0 10px 20px;
+  }
+  
+  
+.agregar {
+    margin: 15px;
+    background: #faf8f7 ;
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 80px;
+    padding: 3px;
+    height: 37px;
+    filter: grayscale(100%);
+}
+.recargar {
+    box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.25);
+    height: 37px;
+    padding: 4px;
+    background-color:  #faf8f7;
+    filter: grayscale(100%);
+    border: none;
+    border-radius: 50px;
+    margin: 15px;
+}
+.pokeball {
+    height: 500px;
+  }
+  
+.poke {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.butRec {
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.agregar:hover {
+    background-color: gray;
+}
+  
+.recargar:hover {
+    background-color: grey;
+}
+.filtros {
+    display: contents ;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+  }
+  
+.filtros:focus {
+    outline: none;
+}   
+.created {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    height: 2rem;
+    border-radius: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 70%;
+    margin-top: 2rem;
+}
+.created:focus {
+    outline: none;
+}
+.order {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    height: 2rem;
+    border-radius: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.order:focus {
+    outline: none;
+}
+.types {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    height: 2rem;
+    border-radius: 70px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.types:focus {
+    outline: none;
+}
+
+.pokeball {
+    height: 400px;
+    display: flex;
+    margin-left: 32% ;
+
+}
